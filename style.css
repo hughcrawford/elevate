@@ -1,25 +1,27 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Prompt:wght@300;400;500;600;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
 
 /* GLOBAL */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Prompt', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    color: #111019;
 }
 
 h1 {
+    font-family: 'Lora', serif;
     font-size: 94px;
     line-height: 83px;
+    font-weight: 500;
+    color: #1A1AFF;
 }
 
 h2 {
@@ -29,21 +31,17 @@ h2 {
 
 h3 {
     font-size: 36px;
-    line-height: 60px;
+    line-height: 46px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 35px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.accent-1 {
-    color: #C4CCFF;
-}
-
-.accent-2 {
-    color: #4D65FF;
+.accent {
+    color: #1A1AFF;
 }
 
 .btn-main {
@@ -62,23 +60,34 @@ p {
 }
 
 a {
-    color: #4D65FF;
+    color: #1A1AFF;
 }
 
 a:hover {
-    color: #4D65FF;
+    color: #1A1AFF;
+}
+
+.demo-link {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 /* NAV */
 
 nav {
     font-family: 'Montserrat', sans-serif;
-    margin: 20px 0;
+    margin: 0;
 }
 
 .navbar-brand {
     font-family: 'Prompt', sans-serif;
-    color: #4D65FF;
+    color: #1A1AFF;
     font-size: 32px;
     font-weight: 500;
 }
@@ -88,7 +97,7 @@ nav {
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .nav-text-link {
@@ -96,25 +105,20 @@ nav {
 }
 
 .nav-demo-link {
-    background-color: #4D65FF;
+    background-color: #1A1AFF;
     color: #FFFFFF;
     border-radius: 100px;
     margin-left: 25px;
 }
 
 .nav-demo-link:hover {
-    background-color: #4D65FF;
+    background-color: #1A1AFF;
     color: #FFFFFF;
     border-radius: 100px;
     box-shadow: 0px 0px 15px #C4CCFF;
 }
 
 /* HERO */
-
-.hero {
-    background-color: #4D65FF;
-    color: #FFFFFF;
-}
 
 .tagline {
     font-family: 'Montserrat', sans-serif;
@@ -123,7 +127,7 @@ nav {
 }
 
 .hero img{
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .btn-hero {
@@ -145,15 +149,23 @@ nav {
     margin-left: 10px;
 }
 
+.bi-arrow-down {
+    color: #1A1AFF;
+    font-size: 30px;
+}
+
 /* SUB-HERO */
 
 .sub-hero {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sub-hero p {
-    margin-top: 25px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .sub-tagline {
@@ -166,4 +178,37 @@ nav {
 .bi-check2 {
     font-size: 35px;
     color: #4D65FF;
+}
+
+/* STATEMENT */
+
+.statement {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CTA */
+
+.cta {
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.demo-blurb h3 {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.demo-blurb p {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
 }
