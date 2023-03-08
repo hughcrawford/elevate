@@ -1,0 +1,169 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Prompt:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+/* GLOBAL */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 83px;
+}
+
+h2 {
+    font-size: 47px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 60px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.accent-1 {
+    color: #C4CCFF;
+}
+
+.accent-2 {
+    color: #4D65FF;
+}
+
+.btn-main {
+    margin-top: 15px;
+    padding: 15px 50px;
+    background-color: #4D65FF;
+    color: #FFFFFF;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+.btn-main:hover {
+    background-color: #4D65FF;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 15px #C4CCFF;
+}
+
+a {
+    color: #4D65FF;
+}
+
+a:hover {
+    color: #4D65FF;
+}
+
+/* NAV */
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0;
+}
+
+.navbar-brand {
+    font-family: 'Prompt', sans-serif;
+    color: #4D65FF;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.nav-text-link {
+    color: #000000;
+}
+
+.nav-demo-link {
+    background-color: #4D65FF;
+    color: #FFFFFF;
+    border-radius: 100px;
+    margin-left: 25px;
+}
+
+.nav-demo-link:hover {
+    background-color: #4D65FF;
+    color: #FFFFFF;
+    border-radius: 100px;
+    box-shadow: 0px 0px 15px #C4CCFF;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #4D65FF;
+    color: #FFFFFF;
+}
+
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.hero img{
+    margin-top: 75px;
+}
+
+.btn-hero {
+    margin-top: 15px;
+    padding: 15px 50px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 100px;
+    font-size: 20px;
+}
+
+.btn-hero:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 0px 0px 15px #C4CCFF;
+}
+
+.btn .bi {
+    margin-left: 10px;
+}
+
+/* SUB-HERO */
+
+.sub-hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sub-hero p {
+    margin-top: 25px;
+}
+
+.sub-tagline {
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: 300;
+}
+
+.bi-check2 {
+    font-size: 35px;
+    color: #4D65FF;
+}
